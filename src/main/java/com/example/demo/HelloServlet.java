@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 
 public class HelloServlet extends HttpServlet {
 
-    public void service(HttpServletRequest req, HttpServletResponse res) throws IOException {
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
         System.out.println("Inside servlet");
 
         res.setContentType("text/html");
